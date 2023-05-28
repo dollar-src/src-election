@@ -1,0 +1,199 @@
+body {
+  background-color: none;
+  overflow: hidden;
+  cursor: none;
+
+}
+
+
+
+
+.container {
+  max-width: 100%;
+  width: 600px;
+  height: 700px;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  position: relative;
+
+}
+
+
+
+
+
+
+.cibik {
+  position: absolute;
+  width: 11px;
+  height: 600px;
+  background: black;
+  left: 20px;
+  top: 50px;
+}
+
+
+.text {
+  position: absolute;
+  left: 120px ;
+  font-size: 30px;
+  font-weight: 300px;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secmen-2text {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 265px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secmen-1 {
+  position: absolute;
+  width: 250px;
+  height: 600px;
+  top: 50px;
+  left: 30px;
+}
+
+.secmen-2 {
+  position: absolute;
+  width: 250px;
+  height: 600px;
+  top: 50px;
+  right: 30px;
+}
+
+.secmenfoto-1 {
+  position: absolute;
+  width: 230px;
+  left: 7.5px;
+  top: 5px;
+  height: 250px;
+  border: 2px solid black;
+  background-image: url(/html/img/rte.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.secmenfoto-2 {
+  position: absolute;
+  width: 230px;
+  right: 7.5px;
+  top: 5px;
+  height: 250px;
+  border: 2px solid black;
+ 
+  background-image: url(/html/img/cahape.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.secmen-1text {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 265px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.duz-cibik {
+  position: absolute;
+  width: 5px;
+  height: 200px;
+  background: black;
+  left: 150px;
+  top: 320px;
+  transform: rotate(-90deg);
+
+}
+
+.duz-cibik2 {
+  position: absolute;
+  width: 5px;
+  height: 200px;
+  background: black;
+  right: 150px;
+  top: 320px;
+  transform: rotate(-90deg);
+
+}
+
+.secmen1zone {
+  position: absolute;
+  width: 200px;
+  left: 13px;
+  height: 150px;
+  top: 370px;
+  
+}
+
+
+.secmen2zone {
+  position: absolute;
+  width: 200px;
+  left: 15px;
+  height: 150px;
+  top: 370px;
+}
+.zone2 , .zone1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+  right: 25px;
+  top: 10px;
+}
+
+.marker {
+  position: absolute;
+ width: 170;
+  pointer-events: none; /* Marker üzerindeki tıklamaları engellemek için */
+  z-index: 1;
+}
+
+
+.altcontainer {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  background-color: white;
+ bottom: -100px;
+  border-top: 10px solid rgb(145, 141, 141);
+}
+
+.onayla {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: green;
+}
+
+
+.reset {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  right: 0;
+  left: 300px;
+}
+.custom-cursor {
+position: absolute;
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 1000px;
+  background-image: url('https://cdn.discordapp.com/attachments/860589979151630417/1112381101520986213/0000550_otomatik-r-532-d-yuvarlak-kase_550.png');
+  background-repeat: no-repeat;
+  pointer-events: none; /* Cursor üzerinden geçişleri etkisizleştir */
+  z-index: 9999;
+  /* opacity: 0.5; */
+}
